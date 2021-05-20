@@ -1,1 +1,1 @@
-Response: The final width is 110px
+Response: The final width is 110px.

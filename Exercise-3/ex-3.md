@@ -1,0 +1,1 @@
+The first shows the value stored in "name" which is "jack". But in the case of the second, the function's "return" and "name" are on separate lines, so it is returning before reaching the "name". For this reason the return of the function that was stored in "who" is undefined, if you place "return" and "name" on the same line, "who" will also show "Jack".
