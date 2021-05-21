@@ -1,1 +1,1 @@
-This repository is for tnt challenge
+This repository is for tnt challenge, the exercises consist of technical questions or application of code in the browser resulting in modifications within the site.
