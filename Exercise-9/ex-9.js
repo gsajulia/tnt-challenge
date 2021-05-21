@@ -34,7 +34,12 @@ const convertNetworkImages = () => {
     })
 }
 
-const sumPrices = () => {
+/* 1 */
+categoryStyle();
+/* 2 */
+convertNetworkImages();
+/* 3 */
+(function(){
     document.querySelectorAll('*[data-testid=category_module_section]').forEach((item) => {
         if (item.textContent.includes("Power, Batteries & Adapters")) { //Get referece of Power section
             const power = item.querySelectorAll('.half-hero-pricing'); //Get the string that shows the price
@@ -45,11 +50,4 @@ const sumPrices = () => {
             alert(sum);
         }
     })
-}
-
-/* 1 */
-categoryStyle();
-/* 2 */
-convertNetworkImages();
-/* 3 */
-sumPrices();
+})();
