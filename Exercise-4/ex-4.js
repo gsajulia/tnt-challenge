@@ -1,5 +1,3 @@
-// Ok - review
-
 const changeBackground = () => {
     const imageUrl = "https://placekitten.com/1280/425";
     

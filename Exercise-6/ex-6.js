@@ -1,5 +1,3 @@
-//OK - review
-
 const moveImage = () => {
     const offering = document.getElementById("solncat-offering");
     const hero = document.getElementById("solncat-hero");

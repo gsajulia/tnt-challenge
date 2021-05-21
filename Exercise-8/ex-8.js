@@ -1,5 +1,3 @@
-//OK - review
-
 const changeCategoryName = () => {
     let splittedTitle, li;
 
